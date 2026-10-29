@@ -1,5 +1,6 @@
 package com.example.lab_8
 
+//this is a test comment to test the CI pipeline automation on github actions
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
